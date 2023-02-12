@@ -2,7 +2,17 @@ GET http://localhost:3001/api/persons
 
 ###
 
-GET http://localhost:3001/api/persons/63e8cad39b0a5635c5dd4a65
+GET http://localhost:3001/api/persons/63e8d1216250e3e9076218cb
+
+###
+
+PUT http://localhost:3001/api/persons/63e8d1216250e3e9076218cb HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Ivan",
+    "number": "320-555555"
+}
 
 ###
 
